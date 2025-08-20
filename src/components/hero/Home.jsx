@@ -7,9 +7,9 @@ function Home() {
     
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
-        <img
+          <img
           src={cake}
-          className="h-[50%] md:h-full max-w-sm rounded-lg shadow-2xl"
+          className="h-[150px] lg:h-full object-cover max-w-sm rounded-lg shadow-2xl"
         />
         <div className="max-w-md">
             <h1 className="text-5xl font-bold text-gray-400">Hello Everyone!</h1>
